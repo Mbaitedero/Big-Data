@@ -39,11 +39,6 @@ Projet MapReduce permettant de calculer la **température moyenne par jour** à 
 - Java
 - HDFS
 
-**Exécution :**
-```bash
-mvn clean package
-hadoop jar target/AVGTempDay.jar input output
-
 
 ### 2️⃣ HDFSManipulationProject
 
@@ -62,15 +57,6 @@ Projet dédié à la **manipulation du système de fichiers HDFS** via Java.
 * Hadoop HDFS
 * Java
 * Kafka
-
-**Exécution :**
-
-```bash
-mvn clean package
-java -cp target/HDFSManipulationProject.jar org.example.Main
-```
-
----
 
 ### 3️⃣ KafkaLocal
 
@@ -94,15 +80,6 @@ Projet d’initiation à **Kafka en local** avec des producteurs et consommateur
 * Zookeeper
 * Kafka Broker actif
 
-**Exécution :**
-
-```bash
-mvn clean package
-java -cp target/KafkaLocal.jar org.example.Main
-```
-
----
-
 ### 4️⃣ Kafka_Projet
 
 **Description :**
@@ -123,15 +100,6 @@ Projet Kafka avancé illustrant :
 * Apache Kafka
 * Java
 
-**Exécution :**
-
-```bash
-mvn clean package
-java -cp target/Kafka_Projet.jar org.example.Main
-```
-
----
-
 ### 5️⃣ MapReduce
 
 **Description :**
@@ -148,14 +116,6 @@ Projet classique **WordCount** avec Hadoop MapReduce.
 * Hadoop MapReduce
 * Java
 
-**Exécution :**
-
-```bash
-mvn clean package
-hadoop jar target/MapReduce.jar input output
-```
-
----
 
 ### 6️⃣ Traitement_de_Logs_Application
 
@@ -180,15 +140,6 @@ Projet de **traitement de logs applicatifs en temps réel** avec Kafka.
 * Détection d’erreurs
 * Analyse de logs en temps réel
 
-**Exécution :**
-
-```bash
-mvn clean package
-java -cp target/Traitement_de_Logs_Application.jar org.example.Main
-```
-
----
-
 ### 7️⃣ UserLogsCounter
 
 **Description :**
@@ -205,15 +156,6 @@ Projet MapReduce pour compter le nombre de logs générés par utilisateur.
 * Hadoop MapReduce
 * Java
 
-**Exécution :**
-
-```bash
-mvn clean package
-hadoop jar target/UserLogsCounter.jar input output
-```
-
----
-
 ## ⚙️ Installation globale
 
 ### Prérequis
@@ -229,11 +171,12 @@ hadoop jar target/UserLogsCounter.jar input output
 ```bash
 git clone https://github.com/Mbaitedero/Big-Data.git
 cd Big-Data
+
 ```
 
 ---
 
-## 🎯 Objectifs pédagogiques
+##  Objectifs pédagogiques
 
 * Comprendre les architectures Big Data
 * Maîtriser Hadoop & Kafka
@@ -249,8 +192,8 @@ cd Big-Data
 
 ## 👤 Auteur
 
-**Mbaitedero**
-Big Data & Data Engineering Enthusiast
+**ALLAH-N'DIGUIM JAPHET**
+Big Data & Data Engineering  & Scientist 
 
 ---
 
