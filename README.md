@@ -1,4 +1,3 @@
-````md
 # 🚀 Big Data Projects – Hadoop, Kafka & Log Processing
 
 ## 📌 Description générale
@@ -44,9 +43,7 @@ Projet MapReduce permettant de calculer la **température moyenne par jour** à 
 ```bash
 mvn clean package
 hadoop jar target/AVGTempDay.jar input output
-````
 
----
 
 ### 2️⃣ HDFSManipulationProject
 
